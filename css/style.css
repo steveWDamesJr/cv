@@ -1,0 +1,9 @@
+.profile {
+    border-radius: 50%;
+	height: 100px;
+	align-items: center;
+}
+
+body {
+    background-color: rgb(207, 214, 143);
+}
