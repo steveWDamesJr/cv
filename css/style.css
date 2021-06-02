@@ -1,9 +1,33 @@
 .profile {
     border-radius: 50%;
-	height: 100px;
-	align-items: center;
+    height: 100px;
+    align-items: center;
 }
 
 body {
     background-color: rgb(207, 214, 143);
 }
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu li {
+      display: inline;
+      float: right;
+  }
+.menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+.menu li a:hover {
+    background-color: rgb(245, 81, 16);
+    color: white;
+  }
